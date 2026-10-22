@@ -1,0 +1,42 @@
+.etiquette-image {
+  width: 100%;
+  max-width: 640px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.etiquette-intro {
+  max-width: 640px;
+}
+
+@media (max-width: 480px) {
+  .etiquette-image {
+    height: 180px;
+  }
+}
+
+.etiquette-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 400px) {
+  .etiquette-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.etiquette-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(43, 33, 24, 0.08);
+}
+
+.etiquette-item h3 {
+  color: var(--color-primary);
+}

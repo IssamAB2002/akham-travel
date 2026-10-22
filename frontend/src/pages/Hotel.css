@@ -1,0 +1,21 @@
+.hotel__image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .hotel__image {
+    height: 200px;
+  }
+}
+
+.hotel ul {
+  padding-left: 1.25rem;
+}
+
+.hotel li {
+  margin-bottom: 0.5rem;
+}

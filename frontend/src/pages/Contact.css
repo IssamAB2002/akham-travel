@@ -1,0 +1,40 @@
+.contact-page {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page__block {
+  margin-top: 2rem;
+}
+
+.contact-page__block:first-of-type {
+  margin-top: 0;
+}
+
+.contact-page__whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #25d366;
+  margin-top: 1rem;
+}
+
+.contact-page__whatsapp:hover {
+  background: #1ebe57;
+}
+
+.contact-page address {
+  font-style: normal;
+}
+
+.contact-page__map {
+  max-width: 100%;
+}
+
+.contact-page__map iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border-radius: 8px;
+}
